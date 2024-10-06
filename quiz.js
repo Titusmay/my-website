@@ -12,6 +12,8 @@ function quiz_score() {
   if (q3_answer && q3_answer.value === "correct") score++;
 
   result.innerHTML = `You scored ${score} out of 3`;
-}
+  if (score === 3){const RandomNum = Math.floor(Math.random()*1000)
+  if (RandomNum === 11){reselt.innerHTML = `You got a carrot`} 
+  else {result.innerHTML = `You didn't get a carrot. ;( maybe next time.`}}
 
 document.getElementById("submit-btn").addEventListener("click", quiz_score);
