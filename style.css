@@ -1,0 +1,15 @@
+body{
+	background-color: lightblue;
+	color: green;
+	text-align: center;
+}
+img{
+	width: 500px;
+	length: 500px;
+}
+ul{
+	list-style-position: inside;
+}
+ol{
+	list-style-position: inside;
+}
